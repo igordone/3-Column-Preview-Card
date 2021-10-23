@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Big+Shoulders&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+body{
+  align-items:center;
+  Font-size:15px;
+}
+
+main{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  margin-top:120px;
+}
+img{
+  width:60px;
+  padding:50px;
+}
+p{
+  font-family:'Lexend Deca', sans-serif;
+  color:hsla(0, 0%, 100%, 0.75);
+  margin-top:-40px;
+  padding:50px;
+  letter-spacing: 0.7px;
+  line-height:30px;
+}
+button{
+  border-radius:32px;
+  background-color:hsl(0, 0%, 95%);
+  border:solid hsl(0, 0%, 95%);
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight:400;
+  letter-spacing: 0.5px;
+  width:140px;
+  height:55px;
+  margin-left:45px;
+  margin-top:50px;
+  cursor:pointer;
+}
+button:hover{
+  background-color:rgb(210, 214, 218);
+  border:rgb(210, 214, 218);
+  transition: 1s;
+}
+#Sedans-btn{
+  color:hsl(31, 77%, 52%);
+}
+#Suvs-btn{
+  color:hsl(184, 100%, 22%);
+}
+#Luxury-btn{
+  color:hsl(179, 100%, 13%);
+}
+
+.Sedans-container{
+  background-color:hsl(31, 77%, 52%);
+  height:580px;
+  width:345px;
+  border-top-left-radius:9px;
+  border-bottom-left-radius:9px;
+}
+.Sedans-title{
+  margin-top:-30px;
+  padding-left:50px;
+  color:white;
+  font-family:'Big Shoulders Display',sans-serif;
+  font-weight:700;
+}
+
+.Suvs-container{
+  background-color:hsl(184, 100%, 22%);
+  height:580px;
+  width:345px;
+}
+.Suvs-title{
+  margin-top:-30px;
+  padding-left:50px;
+  color:white;
+  font-family:'Lexend Deca Display', sans-serif;
+  font-weight:700;
+}
+
+.Luxury-container{
+  background-color:hsl(179, 100%, 13%);
+  height:580px;
+  width:345px;
+  border-top-right-radius:9px;
+  border-bottom-right-radius:9px;
+}
+.Luxury-title{
+  margin-top:-30px;
+  padding-left:50px;
+  color:white;
+  font-family:'Lexend Deca Display', sans-serif;
+  font-weight:700;
+}
+
+footer, a{
+  font-family: 'Big Shoulders Display', sans-serif;
+  font-weight:700;
+  text-decoration:none;
+  text-align:center;
+  margin-top:40px;
+}
+  
